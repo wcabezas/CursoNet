@@ -23,7 +23,7 @@ namespace Curso.Web.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Quienes()
         {
             return View();
         }
