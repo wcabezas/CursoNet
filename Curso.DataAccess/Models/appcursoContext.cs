@@ -33,7 +33,7 @@ namespace Curso.DataAccess.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Name=DefaultConnection");
+                optionsBuilder.UseSqlServer("Server = (localdb)\\mssqllocaldb; Database = appcurso; Persist Security Info = True; User ID = us; Password = qwerty123; MultipleActiveResultSets = True; ");
             }
         }
 
